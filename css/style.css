@@ -39,6 +39,10 @@ body {
 header {
     background-color: #0084fd;
     height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .head {
@@ -85,7 +89,7 @@ header {
 /* ********** MAIN ********** */
 /* ----- Jumbotron ----- */
 .jumbotron {
-    padding: 3rem 0 4rem;
+    padding: 8rem 0 4rem;
 }
 
 .jumbo-card {
