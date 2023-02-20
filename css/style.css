@@ -1,0 +1,38 @@
+/* ***** RESET ***** */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ***** GENERAL ***** */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/* ***** HEADER ***** */
+header {
+    background-color: #0084fd;
+    height: 80px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 80px;
+}
+
+/* Menu with links */
+.menu {
+    display: none;
+}
