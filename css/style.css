@@ -1,11 +1,19 @@
-/* ***** RESET ***** */
+/* ********** RESET ********** */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* ***** GENERAL ***** */
+img {
+    max-width: 100%;
+}
+
+/* ********** GENERAL ********** */
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
 .container {
     width: 90%;
     margin: 0 auto;
@@ -19,7 +27,7 @@
     align-items: center;
 }
 
-/* ***** HEADER ***** */
+/* ********** HEADER ********** */
 header {
     background-color: #0084fd;
     height: 80px;
@@ -35,4 +43,33 @@ header {
 /* Menu with links */
 .menu {
     display: none;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Desktop layout */
+@media screen and (min-width: 992px) {
+    .container {
+        width: 80%;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    /* Menu with links */
+    .menu {
+        display: block;
+    }
+
+    .menu ul {
+        gap: 1rem;
+    }
 }
