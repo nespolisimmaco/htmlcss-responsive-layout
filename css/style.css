@@ -215,3 +215,10 @@ header {
         margin-bottom: 0;
     }
 }
+
+/* * Desktop layout * */
+@media screen and (min-width: 992px) {
+    .benefits-card {
+        width: calc(100% / 3 - (4rem / 3));
+    }
+}
