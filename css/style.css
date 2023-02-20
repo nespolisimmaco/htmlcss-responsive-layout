@@ -186,3 +186,18 @@ header {
     /* debug */
     min-height: 300px;
 }
+
+/* ----- Benefits section ----- */
+.benefits {
+    background-color: var(--violet);
+    text-align: center;
+    padding: 4rem 0 3rem;
+}
+
+.benefits-card {
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    /* debug */
+    min-height: 300px;
+}
