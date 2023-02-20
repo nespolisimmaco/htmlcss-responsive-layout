@@ -1,3 +1,9 @@
+/* ********** VARIABLES ********** */
+:root {
+    --violet: #9792e4;
+}
+
+
 /* ********** RESET ********** */
 * {
     margin: 0;
@@ -17,6 +23,8 @@ body {
 .container {
     width: 90%;
     margin: 0 auto;
+    /* debug */
+    border: 1px dashed black;
 }
 
 .flex {
@@ -111,4 +119,22 @@ header {
         width: calc(100% - (100% / 3));
     }
 
+}
+
+/* ----- Strategic planning section ----- */
+.strategic-planning {
+    background-color: var(--violet);
+    text-align: center;
+    padding: 3rem 0;
+    /* debug */
+    min-height: 500px;
+}
+
+.planning-card {
+    background-color: white;
+    border-radius: 50px;
+    text-align: center;
+
+    /* debug */
+    min-height: 200px;
 }
