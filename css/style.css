@@ -188,7 +188,7 @@ header {
 }
 
 /* ----- Benefits section ----- */
-.benefits {
+.benefits-section {
     background-color: var(--violet);
     text-align: center;
     padding: 4rem 0 3rem;
@@ -200,4 +200,18 @@ header {
     margin-bottom: 2rem;
     /* debug */
     min-height: 300px;
+}
+
+/* * Tablet layout * */
+@media screen and (min-width: 768px) {
+    .benefits {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .benefits-card {
+        width: calc(100% / 2 - (2rem / 2));
+        margin-bottom: 0;
+    }
 }
