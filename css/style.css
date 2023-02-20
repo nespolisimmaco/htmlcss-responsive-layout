@@ -65,7 +65,7 @@ header {
 /* * Desktop layout * */
 @media screen and (min-width: 992px) {
     .container {
-        width: 80%;
+        width: 70%;
     }
 
     .hamburger {
@@ -124,7 +124,6 @@ header {
 /* ----- Strategic planning section ----- */
 .strategic-planning {
     background-color: var(--violet);
-    text-align: center;
     padding: 3rem 0;
     /* debug */
     min-height: 500px;
@@ -137,4 +136,34 @@ header {
 
     /* debug */
     min-height: 200px;
+}
+
+/*  * Desktop layout * */
+@media screen and (min-width: 992px) {
+    .strategic-planning {
+        padding: 5rem 0 3rem;
+    }
+
+    .strategic-planning .container {
+        width: 50%;
+    }
+
+    .planning-section {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        gap: 3rem;
+    }
+
+    .planning-section > div {
+        width: calc(100% / 2 - (3rem / 2));
+    }
+
+    .planning img {
+        width: 320px;
+    }
+
+    .planning-card img {
+        width: 200px;
+    }
 }
