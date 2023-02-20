@@ -73,3 +73,22 @@ header {
         gap: 1rem;
     }
 }
+
+/* ********** MAIN ********** */
+.jumbotron {
+    padding: 3rem 0 4rem;
+}
+
+.jumbo-card {
+    background-color: #b5ddff;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    /* debug */
+    min-height: 200px;
+    border: 1px solid black;
+}
+
+.demo-application {
+    /* debug */
+    min-height: 400px;
+}
