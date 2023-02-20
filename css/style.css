@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     /* debug */
     border: 1px dashed black;
@@ -166,4 +166,19 @@ header {
     .planning-card img {
         width: 200px;
     }
+}
+
+/* ----- Testimonials section ----- */
+.testimonials {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.testimonials-card {
+    background-color: var(--violet);
+    border-radius: 50px;
+    text-align: center;
+    margin-bottom: 2rem;
+    /* debug */
+    min-height: 300px;
 }
