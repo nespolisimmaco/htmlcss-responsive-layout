@@ -249,6 +249,7 @@ header {
         display: flex;
         flex-wrap: wrap;
         gap: 3rem;
+        padding: 0 2rem;
     }
 
     .about-us-paragraph {
@@ -257,5 +258,16 @@ header {
 
     .about-us-image {
         width: calc(40% - (3rem / 2));
+    }
+}
+
+/* * Desktop layout * */
+@media screen and (min-width: 992px) {
+    .about-us-paragraph {
+        width: calc(70% - (3rem / 2));
+    }
+
+    .about-us-image {
+        width: calc(30% - (3rem / 2));
     }
 }
