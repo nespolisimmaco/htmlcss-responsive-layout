@@ -83,6 +83,7 @@ header {
     background-color: #b5ddff;
     border-radius: 20px;
     margin-bottom: 1rem;
+    text-align: center;
     /* debug */
     min-height: 200px;
     border: 1px solid black;
