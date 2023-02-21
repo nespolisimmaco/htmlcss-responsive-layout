@@ -1,5 +1,6 @@
 /* ********** VARIABLES ********** */
 :root {
+    --blue: #0084fd;
     --violet: #9792e4;
     --footer-grey: #333333;
 }
@@ -38,13 +39,35 @@ body {
 
 .user-rounded {
     border-radius: 50%;
-    height: 200px;
-    display: inline-block;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+
+/* Buttons */
+.button {
+    display: inline;
+    border-radius: 100px;
+}
+
+.white-button {
+    background-color: white;
+    color: black;
+}
+
+.blue-button {
+    background-color: var(--blue);
+    color: white;
+}
+
+.violet-button {
+    background-color: var(--violet);
+    color: white;
 }
 
 /* ********** HEADER ********** */
 header {
-    background-color: #0084fd;
+    background-color: var(--blue);
     height: 80px;
     position: fixed;
     top: 0;
@@ -59,9 +82,16 @@ header {
     line-height: 80px;
 }
 
+.hamburger button {
+    border: none;
+    background-color: var(--blue);
+    color: white;
+}
+
 /* Menu with links */
 .menu {
     display: none;
+    color: white;
 }
 
 .menu li {
@@ -71,6 +101,11 @@ header {
 .menu a {
     text-decoration: none;
     color: inherit;
+}
+
+.menu .button {
+    padding: 5px 15px;
+    font-size: 1.2rem;
 }
 
 /* * Desktop layout * */
@@ -89,7 +124,7 @@ header {
     }
 
     .menu ul {
-        gap: 1rem;
+        gap: 2rem;
     }
 }
 
@@ -123,13 +158,12 @@ header {
     }
     
     .jumbo-card {
-        width: calc(100% / 3 - (10px));
+        width: calc(100% / 3 - (20px / 3));
     }
 
     .demo-application {
-        width: calc(100% - (100% / 3));
+        width: calc(100% - (100% / 3) - (10px / 2));
     }
-
 }
 
 /* ----- Strategic planning section ----- */
