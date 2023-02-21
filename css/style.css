@@ -432,7 +432,7 @@ header {
     }
 }
 
-/* ----- About us section ------ */
+/* ----- About us section ----- */
 .about-us-section {
     padding: 5rem 0 3rem;
 }
@@ -544,4 +544,22 @@ footer {
     padding: 2rem 0;
     /* debug */
     min-height: 200px;
+}
+
+footer p:first-child {
+    margin-bottom: 3rem;
+}
+
+/* * Tablet layout * */
+@media screen and (min-width: 768px) {
+    footer .container {
+        width: 50%;
+    }
+}
+
+/* * Desktop layout * */
+@media screen and (min-width: 992px) {
+    footer .container {
+        width: 30%;
+    }
 }
