@@ -507,15 +507,48 @@ header {
 .call-to-action {
     background-color: var(--violet);
     padding: 4rem 0;
+    text-align: center;
+    color: white;
     /* debug */
     min-height: 400px;
 }
 
 .cta {
     padding: 0 1rem;
-    /* debug */
-    min-height: 300px;
-    background-color: coral;
+}
+
+.cta h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.cta h2 {
+    color: #fdc15f;
+    font-size: 3rem;
+    margin: 1.5rem 0;
+}
+
+.cta p {
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+}
+
+.cta .button {
+    padding: 1rem 3rem;
+}
+
+.cta .button a {
+    text-decoration: none;
+    color: var(--violet);
+}
+
+.copyright {
+    font-size: .8rem;
+    margin-top: 2rem;
+}
+
+.copyright a {
+    color: white;
 }
 
 /* * Tablet layout * */
