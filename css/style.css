@@ -556,6 +556,14 @@ header {
     .call-to-action .container {
         width: 60%;
     }
+
+    .cta h3 {
+        font-size: 2.2rem;
+    }
+
+    .cta h2 {
+        font-size: 4.5rem;
+    }
 }
 
 /* * Desktop layout * */
