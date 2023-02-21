@@ -3,6 +3,7 @@
     --blue: #0084fd;
     --violet: #9792e4;
     --footer-grey: #333333;
+    --light-blue: #b5ddff;
 }
 
 
@@ -130,23 +131,54 @@ header {
 
 /* ********** MAIN ********** */
 /* ----- Jumbotron ----- */
-.jumbotron {
+.features-section {
     padding: 8rem 0 4rem;
 }
 
-.jumbo-card {
-    background-color: #b5ddff;
+/* Card */
+.features-card {
+    background-color: var(--light-blue);
     border-radius: 20px;
     margin-bottom: 1rem;
     text-align: center;
-    /* debug */
-    min-height: 200px;
-    border: 1px solid black;
+    padding: 1.5rem;
 }
 
+.features-card .card h2 {
+    color: var(--blue);
+    font-size: 1.4rem;
+    margin: 1.5rem 0;
+}
+
+.features-card p {
+    line-height: 1.6rem;
+}
+
+.features-card i {
+    color: var(--blue);
+}
+
+/* Demo apllication card */
 .demo-application {
-    /* debug */
-    min-height: 400px;
+    padding: 1.5rem 1.5rem 0;
+    text-align: left;
+}
+
+.demo-application p {
+    margin-bottom: 2rem;
+}
+
+.demo-application .button {
+    padding: 8px 40px;
+}
+
+.demo-application img {
+    display: block;
+    margin-top: 2rem;
+}
+
+.demo-application i {
+    color: white;
 }
 
 /* * Tablet layout * */
@@ -157,7 +189,7 @@ header {
         gap: 10px;
     }
     
-    .jumbo-card {
+    .features-card {
         width: calc(100% / 3 - (20px / 3));
     }
 
