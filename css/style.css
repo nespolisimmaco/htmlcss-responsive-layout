@@ -1,6 +1,7 @@
 /* ********** VARIABLES ********** */
 :root {
     --violet: #9792e4;
+    --footer-grey: #333333;
 }
 
 
@@ -303,4 +304,14 @@ header {
     .call-to-action .container {
         width: 40%;
     }
+}
+
+/* ********** FOOTER ********** */
+footer {
+    background-color: var(--footer-grey);
+    text-align: center;
+    color: white;
+    padding: 2rem 0;
+    /* debug */
+    min-height: 200px;
 }
