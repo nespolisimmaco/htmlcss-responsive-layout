@@ -398,6 +398,7 @@ header {
 
 .benefits-card p {
     margin-bottom: 1.5rem;
+    line-height: 1.8rem;
 }
 
 .benefits-card .button {
@@ -436,13 +437,41 @@ header {
     padding: 5rem 0 3rem;
 }
 
+/* Paragraph part */
 .about-us-paragraph p {
     margin-bottom: 3rem;
+    line-height: 2rem;
 }
 
-.about-us-paragraph, .about-us-image {
-    /* debug */
-    border: 1px solid black;
+.about-us-paragraph h2 {
+    font-size: 2.5rem;
+    color: var(--violet);
+    margin-bottom: 2rem;
+}
+
+/* Image part */
+.about-us-image {
+    position: relative;
+}
+
+.about-us-image::before {
+    content: open-quote;
+    font-size: 10rem;
+    color: var(--violet);
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+
+.about-us-image p {
+    color: var(--violet);
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.about-us-image .button {
+    padding: 5px 10px;
 }
 
 /* * Tablet layout * */
