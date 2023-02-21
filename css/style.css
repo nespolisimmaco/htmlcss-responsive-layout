@@ -26,8 +26,6 @@ body {
 .container {
     width: 80%;
     margin: 0 auto;
-    /* debug */
-    border: 1px dashed black;
 }
 
 .flex {
@@ -509,8 +507,6 @@ header {
     padding: 4rem 0;
     text-align: center;
     color: white;
-    /* debug */
-    min-height: 400px;
 }
 
 .cta {
@@ -583,8 +579,6 @@ footer {
     text-align: center;
     color: white;
     padding: 2rem 0;
-    /* debug */
-    min-height: 200px;
 }
 
 footer p:first-child {
