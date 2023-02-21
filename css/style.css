@@ -40,8 +40,8 @@ body {
 
 .user-rounded {
     border-radius: 50%;
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
     object-fit: cover;
 }
 
@@ -74,6 +74,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 99;
 }
 
 .head {
@@ -342,6 +343,24 @@ header {
 #name {
     font-size: 1.5rem;
     font-weight: 600;
+}
+
+/* Tablet layout */
+@media screen and (min-width: 768px) {
+    .testimonials-card .card {
+        display: flex;
+        flex-wrap: wrap; 
+        text-align: left;
+        gap: 1rem;
+    }
+
+    .col-30 {
+        width: calc(30% - (1rem / 2));
+    }
+
+    .col-70 {
+        width: calc(70% - (1rem / 2));
+    }     
 }
 
 /* ----- Benefits section ----- */
