@@ -286,3 +286,21 @@ header {
     min-height: 300px;
     background-color: coral;
 }
+
+/* * Tablet layout * */
+@media screen and (min-width: 768px) {
+    .call-to-action .container {
+        width: 60%;
+    }
+}
+
+/* * Desktop layout * */
+@media screen and (min-width: 992px) {
+    .call-to-action {
+        padding: 3rem 0;
+    }
+
+    .call-to-action .container {
+        width: 40%;
+    }
+}
