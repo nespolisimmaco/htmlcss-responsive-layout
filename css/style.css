@@ -209,17 +209,53 @@ header {
 .strategic-planning {
     background-color: var(--violet);
     padding: 3rem 0;
-    /* debug */
-    min-height: 500px;
 }
 
+/* Strategic planning */
+.planning {
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.planning h2 {
+    margin: 3rem 0;
+    font-size: 2rem;
+}
+
+.planning p {
+    line-height: 2rem;
+}
+
+/* Card inside the section */
 .planning-card {
     background-color: white;
     border-radius: 50px;
     text-align: center;
+    padding: 2rem 1rem;
+}
 
-    /* debug */
-    min-height: 200px;
+.planning-card h2 {
+    margin: 1.5rem 0;
+}
+
+.planning-card p {
+    line-height: 2rem;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.download-button {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: var(--violet);
+    line-height: 50px;
+    text-align: center;
+}
+
+.download-button a {
+    color: inherit;
 }
 
 /*  * Desktop layout * */
