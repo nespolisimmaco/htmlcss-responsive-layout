@@ -40,8 +40,8 @@ body {
 
 .user-rounded {
     border-radius: 50%;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     object-fit: cover;
 }
 
@@ -294,13 +294,54 @@ header {
     text-align: center;
 }
 
+.testimonials h2 {
+    color: var(--violet);
+    font-size: 2.5rem;
+    margin: 2rem 0;
+}
+
+.testimonials p {
+    line-height: 1.6rem;
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+}
+
+/* Testimonials card */
 .testimonials-card {
     background-color: var(--violet);
     border-radius: 50px;
     text-align: center;
     margin-bottom: 2rem;
-    /* debug */
-    min-height: 300px;
+    color: white;
+    padding: 2rem 1rem;
+}
+
+.testimonials-card p {
+    margin-top: 1rem;
+    line-height: 1.8rem;
+}
+
+.testimonials-card p::before {
+    content: open-quote;
+    font-size: 4rem;
+    vertical-align: text-bottom;
+    position: relative;
+    left: 0;
+    top: 15px;
+}
+
+.testimonials-card p::after {
+    content: close-quote;
+    font-size: 4rem;
+    vertical-align: text-bottom;
+    position: relative;
+    right: 0;
+    bottom: -15px;
+}
+
+#name {
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 /* ----- Benefits section ----- */
